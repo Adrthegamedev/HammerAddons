@@ -24,6 +24,9 @@
 		"ep_alyx_darknessmode": "Episode 1: Alyx darkness mode" [ep1]
 		"hunters_to_run_over": "Ep2 Counter: Hunters to run over before they dodge" [ep2]
 		"citizens_no_auto_variant" : "EZ2: New citizen types don't automatically set variants to 'Arbeit'" [EZ2]
+
+		"is_console": "Game is running on a console" [+complete]
+		"is_pc": "Game is running on a PC" [+complete]
 		]
 
 	globalstate[P2, -INFRA](choices) : "Global State to Set" =
@@ -32,6 +35,9 @@
 		"no_pinging_orange": "Prevent Pinging P-Body"
 		"no_taunting_blue": "Prevent Taunting ATLAS"
 		"no_taunting_orange": "Prevent Taunting P-Body"
+				
+		"is_console": "Game is running on a console" [+complete]
+		"is_pc": "Game is running on a PC" [+complete]
 		]
 
 	globalstate[INFRA](choices) : "Global State to Set" =
@@ -99,6 +105,9 @@
 		"infra_wasteland": "INFRA: player comes from wasteland"
 		"infra_office_flood": "INFRA: player took picture of the office flood"
 		"infra_B2_Keys": "INFRA: player has B2 Keys"
+				
+		"is_console": "Game is running on a console" [+complete]
+		"is_pc": "Game is running on a PC" [+complete]
 		]
 
 	globalstate[Mesa](choices) : "Global State to Set" =
@@ -106,6 +115,9 @@
 		"predisaster" : "Pre-Disaster"
 		"friendly_encounter" : "Friendly encounter sequence (lower weapons, etc.)"
 		"gordon_invulnerable" : "Player is invulnerable"
+				
+		"is_console": "Game is running on a console" [+complete]
+		"is_pc": "Game is running on a PC" [+complete]
 		]
 
 	initialstate[engine](integer) : "Initial State" : 0

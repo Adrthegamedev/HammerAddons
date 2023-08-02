@@ -12,6 +12,8 @@
 		2: "Only Tanks"
 		]
 
+	input physdamagescale(float) : "Set the Physics Impact Damage Scale for this brush. NOTE: 0 means this feature is disabled for backwards compatibility."
+
 	@resources
 		[
 	    sound "Breakable.MatGlass"

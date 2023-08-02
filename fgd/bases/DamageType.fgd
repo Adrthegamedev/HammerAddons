@@ -10,9 +10,8 @@
 		4: "Slash"
 		8: "Burn"
 
-		16: "Freeze" [!TF2, until_ASW]
+		16: "Vehicle" [!TF2]
 		16: "Train" [TF2]
-		16: "Vehicle" [since_ASW]
 
 		32: "Fall"
 		64: "Blast"
@@ -36,14 +35,18 @@
 		1048576: "Acid" [since_ASW]
 
 		2097152: "Slow Burn"
-		4194304 : "Slowfreeze"
+		4194304 : "Prevent Ragdolls" [!srctools]
 		8388608 : "Gravity Gun"
 		16777216 : "Ignite (no after-burn damage)" [TF2]
 		16777216 : "Force Gibs" [L4D2]
-		33554432 : "Airboat"
+		16777216 : "Plasma" [!L4D2, !TF2]
+		33554432 : "Parasite Infestation" [ASW]
+		33554432 : "Airboat" [!ASW]
 		67108864 : "Dissolve"
+		134217728 : "Blast on water surface" [!srctools]
 		268435464 : "Being on fire"  // DMG_BURN | DMG_DIRECT (268435456)
 		536870912 : "Shotguns" [TF2]
+		536870912 : "Buckshot" [!TF2]
 		]
 
 	damagepresets[engine](integer) : "Damage Presets" : 0

@@ -22,9 +22,8 @@
 		4: "Slash"
 		8: "Burn"
 
-		16: "Freeze" [!TF2, until_ASW]
+		16: "Vehicle" [!TF2]
 		16: "Train" [TF2]
-		16: "Vehicle" [since_ASW]
 
 		32: "Fall"
 		64: "Blast"
@@ -32,28 +31,34 @@
 		256: "Shock"
 		512: "Sonic"
 		1024: "Energy Beam"
-		16384: "Drown"
+		2048 : "No Physics Force"
+		4096 : "Never Gib"
+		8192 : "Always Gib"
+		16384: "Drown (blue faded)"
 		32768: "Paralyse"
 		65536: "Nerve Gas" [!TF2]
 		65536: "Sawblade" [TF2]
 		131072: "Poison"
 		262144: "Radiation"
-		524288: "Drown Recover"
+		524288: "Drowning recovery"
 
 		1048576: "Chemical" [!TF2, until_ASW]
 		1048576: "Critical" [TF2]
 		1048576: "Acid" [since_ASW]
 
 		2097152: "Slow Burn"
-		//4194304 : "Slow Freeze" // This does not appear to exist.
-		4194304: "Remove No Ragdoll"
-		16777216: "Full Gib" [L4D2]
-		16777216 : "Plasma" [until_L4D2]
-		33554432 : "Airboat (gun)"
+		4194304 : "Prevent Ragdolls"
+		8388608 : "Gravity Gun"
+		16777216 : "Ignite (no after-burn damage)" [TF2]
+		16777216 : "Force Gibs" [L4D2]
+		16777216 : "Plasma" [!L4D2, !TF2]
+		33554432 : "Parasite Infestation" [ASW]
+		33554432 : "Airboat" [!ASW]
 		67108864 : "Dissolve"
-		134217728 : "Blast Surface"
-		268435456 : "Direct"
-		536870912 : "Buckshot"
+		134217728 : "Blast on water surface"
+		268435464 : "Being on fire"  // DMG_BURN | DMG_DIRECT (268435456)
+		536870912 : "Shotguns" [TF2]
+		536870912 : "Buckshot" [!TF2]
 		]
 	
 	@resources []
